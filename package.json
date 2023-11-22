@@ -10,6 +10,17 @@
     "upgradePeerdeps": "install-peerdeps @tarojs/taro-rn@3.5.7-alpha.8 -o -Y && install-peerdeps @tarojs/components-rn@3.5.7-alpha.8 -o -Y && install-peerdeps @tarojs/router-rn@3.5.7-alpha.8 -o -Y && pod-install",
     "lint": "eslint ."
   },
+  "overrides": {
+    "react-native-gesture-handler": "2.13.4"
+  },
+  "resolutions": {
+    "react-native-gesture-handler": "2.13.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "react-native-gesture-handler": "2.13.4"
+    }
+  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.17.7",
     "@react-native-camera-roll/camera-roll": "~5.0.4",
@@ -34,7 +45,6 @@
     "react": "18.1.0",
     "react-native": "^0.70.4",
     "react-native-device-info": "~10.3.0",
-    "react-native-gesture-handler": "~2.8.0",
     "react-native-image-resizer": "~1.4.5",
     "react-native-pager-view": "~6.0.1",
     "react-native-safe-area-context": "~4.4.1",
